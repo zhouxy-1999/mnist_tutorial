@@ -1,24 +1,3 @@
-# mnist_tutorial
-A tutorial for mnist hand writen digit classification using sklearn, pytorch and keras.
+numpy_matplotlib_sklearn.py文件，是填补了numpy_matplotlib_sklearn.ipynb的空白，实现了三种分类（logistic regression，naive bayes，SVM），并调整了SVM中的LinearSVC()函数的dual, class_weight, C, tol参数，使得test_accuracy有所提高。
 
-# Code structure
-* [`numpy_matplotlib_sklearn.ipynb`](numpy_matplotlib_sklearn.ipynb): for numpy, matplotlib and sklearn.
-* [`pytorch.ipynb`](pytorch.ipynb): for pytorch.
-* [`keras.ipynb`](keras.ipynb): for keras.
-* Reference solution: (not published yet)
-    * [`numpy_matplotlib_sklearn_solution.ipynb`](numpy_matplotlib_sklearn_solution.ipynb)
-    * [`pytorch_solution.ipynb`](pytorch_solution.ipynb)
-    * [`keras_solution.ipynb`](keras_solution.ipynb)
-
-# Requirements
-Code tested on following environments, other version should also work:
-* linux system (ubuntu 16.04) 
-* python 3.6.3
-* numpy 1.13.3
-* matplotlib 2.1.0
-* sklearn 0.19.1
-* pytorch 0.4.1
-* keras 2.1.2
-
-# For students from SJTU
-Please read [HEAR](EE369.md).
+pytorch_solution.py文件，填补了pytorch.ipynb的空白，实现了利用深度学习的方法进行手写数字的分类，并成功实现了win10下pytorch-gpu的使用（这个所花费的时间比写代码还要久。。。）
